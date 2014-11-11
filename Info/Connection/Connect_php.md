@@ -1,6 +1,6 @@
 Connect to MySQL trough PHP.
 ============================ 
 
-### Procediral style.
+### Procedural style.
 
 ### Object Oriented style.
