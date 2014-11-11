@@ -19,6 +19,8 @@ mysql> SELECT * FROM employee_tbl;
 7 rows in set (0.00 sec)
 ```
 
+### % Wildcard
+
 Now, suppose based on the above table you want to search to table on the record that have Zara as value, then you can do so by using the follewing command:
 
 ```bash 
@@ -46,4 +48,3 @@ mysql> SELECT * FROM employee_tbl
 +----+------+------------+--------------------+
 2 rows in set (0,00 sec)
 ```
-
