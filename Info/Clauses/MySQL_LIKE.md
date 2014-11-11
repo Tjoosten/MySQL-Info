@@ -18,3 +18,32 @@ mysql> SELECT * FROM employee_tbl;
 +------+------+------------+--------------------+
 7 rows in set (0.00 sec)
 ```
+
+Now, suppose based on the above table you want to search to table on the record that have Zara as value, then you can do so by using the follewing command:
+
+```bash 
+mysql> SELECT * FROM employee_tbl
+    -> WHERE name LIKE '%Zara%';
++----+------+------------+--------------------+
+| id | name | work_date  | daily_typing_pages |
++----+------+------------+--------------------+
+|  6 | Zara | 2007-06-06 |                300 |
+|  7 | Zara | 2007-02-06 |                350 |
++----+------+------------+--------------------+
+2 rows in set (0,00 sec)
+```
+
+Or you can use the following command:
+
+```bash 
+mysql> SELECT * FROM employee_tbl
+    -> WHERE name LIKE 'Zara%';
++----+------+------------+--------------------+
+| id | name | work_date  | daily_typing_pages |
++----+------+------------+--------------------+
+|  6 | Zara | 2007-06-06 |                300 |
+|  7 | Zara | 2007-02-06 |                350 |
++----+------+------------+--------------------+
+2 rows in set (0,00 sec)
+```
+
