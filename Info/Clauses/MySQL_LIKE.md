@@ -21,7 +21,7 @@ mysql> SELECT * FROM employee_tbl;
 
 ### % Wildcard
 
-The following SQL statement selects all customers with a City starting with the letter "Z":
+The following SQL statement selects all customers with a name starting with the letter "Z":
 
 ```bash 
 mysql> SELECT * FROM employee_tbl
