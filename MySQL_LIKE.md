@@ -1,7 +1,7 @@
-MySQL Like function. 
+MySQL LIKE clause. 
 ====================
 
-MySQL Like clause function is used to search in a table for records. To understand LIKE clause, consider an employee_tbl table, which is having the following records:
+MySQL Like clause is used to search in a table for records. To understand LIKE clause, consider an employee_tbl table, which is having the following records:
 
 ```bash
 mysql> SELECT * FROM employee_tbl;
