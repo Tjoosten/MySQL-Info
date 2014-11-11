@@ -25,7 +25,7 @@ The following SQL statement selects all customers with a name starting with the 
 
 ```bash 
 mysql> SELECT * FROM employee_tbl
-    -> WHERE name LIKE 'Zara%';
+    -> WHERE name LIKE 'Z%';
 +----+------+------------+--------------------+
 | id | name | work_date  | daily_typing_pages |
 +----+------+------------+--------------------+
