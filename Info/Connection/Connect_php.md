@@ -35,7 +35,7 @@ if ($conn->connect_error) {
 echo "Connected successfully";
 ``` 
 
-### pDO
+### PDO
 
 ```php
 $servername = "localhost";
@@ -50,4 +50,4 @@ catch(PDOException $e)
     {
     echo $e->getMessage();
     }
-``
+```
