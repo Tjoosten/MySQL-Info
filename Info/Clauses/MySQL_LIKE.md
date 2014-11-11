@@ -21,7 +21,7 @@ mysql> SELECT * FROM employee_tbl;
 
 ### % Wildcard
 
-The following SQL statement selects all customers with a name starting with the letter "Z":
+The following SQL statement selects all customers with a `name starting with the letter "Z":
 
 ```bash 
 mysql> SELECT * FROM employee_tbl
@@ -33,4 +33,31 @@ mysql> SELECT * FROM employee_tbl
 |  7 | Zara | 2007-02-06 |                350 |
 +----+------+------------+--------------------+
 2 rows in set (0,00 sec)
+```
+
+The following SQL statement selects all customers with a `name` ending with the letter "A":
+
+```bash
+mysql> SELECT * FROM employee_tbl  
+    -> WHERE name LIKE '%a';
++----+------+------------+--------------------+
+| id | name | work_date  | daily_typing_pages |
++----+------+------------+--------------------+
+|  6 | Zara | 2007-06-06 |                300 |
+|  7 | Zara | 2007-02-06 |                350 |
++----+------+------------+--------------------+
+2 rows in set (0,00 sec)
+```
+
+The following SQL statement selects all customers with a `name` containing the pattern "John":
+
+```bash
+mysql> SELECT * FROM employee_tbl 
+    -> WHERE name LIKE '%John%';
++----+------+------------+--------------------+
+| id | name | work_date  | daily_typing_pages |
++----+------+------------+--------------------+
+|  1 | John | 2007-01-24 |                250 |
++----+------+------------+--------------------+
+1 row in set (0,00 sec)
 ```
