@@ -26,5 +26,16 @@ The following output should be like:
 
 #### Column explanation
 
-| **Column** | **Description** |
-| ---------- | --------------- |
+| **Column**     | **Description** |
+| -------------- | --------------- |
+| `id`           |
+| `select_type`  |
+| `table`        |
+| `type`         |
+| `pssible_keys` |
+| `key`          |
+| `key_len`      |
+| `ref`          |
+| `rows`         |
+| `Extrea`       |
+
