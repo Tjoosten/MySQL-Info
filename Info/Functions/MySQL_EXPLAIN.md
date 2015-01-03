@@ -24,6 +24,4 @@ The following output should be like:
 +----+-------------+--------------+------+---------------+------+---------+------+------+-------+
 ```
 
-Now what these columns mean?
-
-- `id` =
+#### Colunm explanation
