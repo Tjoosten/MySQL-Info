@@ -38,3 +38,15 @@ The following output should be like:
 | `ref`           | The columns compared to the index |
 | `rows`          | Estimate of rows to be examined   |
 | `Extrea`        | Additional information            |
+
+#### Logt to a `.txt` file.
+You can also log the output of the query to a textfile. Using this syntax. 
+
+```bash 
+mysql -u [dbuser] -p[dbpass] -e "[query]" > out.txt
+```
+
+- `[dbuser]` is the database user’s name
+- `[dbpass]` is the password of the database. (there is no space between the -p and the password)
+- `[query]`  is the SQL statement, e.g. `USE mydatabase; EXPLAIN SELECT * FROM mytable;`
+-
