@@ -26,16 +26,15 @@ The following output should be like:
 
 #### Column explanation
 
-| **Column**     | **Description**                 |
-| -------------- | ------------------------------- |
-| `id`           | The `SELECT` Identifier         |
-| `select_type`  | The `SELECT` type               |
-| `table`        | The table for the output row    |
-| `type`         | The `JOIN` type                 |
-| `pssible_keys` |
-| `key`          |
-| `key_len`      |
-| `ref`          |
-| `rows`         | Estimate of rows to be examined |
-| `Extrea`       | Additional information          |
-
+| **Column**      | **Description**                 |
+| --------------- | ------------------------------- |
+| `id`            | The `SELECT` Identifier         |
+| `select_type`   | The `SELECT` type               |
+| `table`         | The table for the output row    |
+| `type`          | The `JOIN` type                 |
+| `possible_keys` |
+| `key`           |
+| `key_len`       |
+| `ref`           |
+| `rows`          | Estimate of rows to be examined |
+| `Extrea`        | Additional information          |
