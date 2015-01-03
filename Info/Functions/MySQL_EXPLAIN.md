@@ -26,9 +26,9 @@ The following output should be like:
 
 #### Column explanation
 
-| **Column**     | **Description** |
-| -------------- | --------------- |
-| `id`           |
+| **Column**     | **Description**          |
+| -------------- | ----------------------- |
+| `id`           | The `SELECT` Identifier |
 | `select_type`  |
 | `table`        |
 | `type`         |
