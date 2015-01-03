@@ -17,4 +17,9 @@ EXPLAIN SELECT * FROM employee_tbl;
 The following output should be like: 
 
 ```bash 
++----+-------------+--------------+------+---------------+------+---------+------+------+-------+
+| id | select_type | table        | type | possible_keys | key  | key_len | ref  | rows | Extra |
++----+-------------+--------------+------+---------------+------+---------+------+------+-------+
+|  1 | SIMPLE      | empoyee_tbl  | ALL  | NULL          | NULL | NULL    | NULL |    4 |       |
++----+-------------+--------------+------+---------------+------+---------+------+------+-------+
 ```
