@@ -5,3 +5,6 @@ Despite our familiarity, SQL syntax is a dark art. The only person who understan
 
 MySQL provide a useful EXPLAIN command which can analyze your queries and detect potential performance issues:
 
+- `EXPLAIN` describes how a `SELECT` will be processed including information about `JOINS`.
+- `EXPLAIN EXTENDED` provides additional information and estimates the number of table rows that are filtered by the condition.
+
