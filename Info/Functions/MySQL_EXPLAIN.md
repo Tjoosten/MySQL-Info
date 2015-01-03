@@ -24,4 +24,7 @@ The following output should be like:
 +----+-------------+--------------+------+---------------+------+---------+------+------+-------+
 ```
 
-#### Colunm explanation
+#### Column explanation
+
+| **Column** | **Description** |
+| ---------- | --------------- |
