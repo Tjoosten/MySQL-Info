@@ -8,3 +8,8 @@ MySQL provide a useful EXPLAIN command which can analyze your queries and detect
 - `EXPLAIN` describes how a `SELECT` will be processed including information about `JOINS`.
 - `EXPLAIN EXTENDED` provides additional information and estimates the number of table rows that are filtered by the condition.
 
+The command is simply added to the start of your query,
+
+```sql
+EXPLAIN SELECT * FROM employee_tbl;
+```
