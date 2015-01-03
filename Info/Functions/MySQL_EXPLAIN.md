@@ -13,3 +13,8 @@ The command is simply added to the start of your query,
 ```sql
 EXPLAIN SELECT * FROM employee_tbl;
 ```
+
+The following output should be like: 
+
+```bash 
+```
