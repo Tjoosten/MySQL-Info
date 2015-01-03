@@ -37,4 +37,4 @@ The following output should be like:
 | `key_len`       | The length of the chosen key      |
 | `ref`           | The columns compared to the index |
 | `rows`          | Estimate of rows to be examined   |
-| `Extrea`        | Additional information          |
+| `Extrea`        | Additional information            |
