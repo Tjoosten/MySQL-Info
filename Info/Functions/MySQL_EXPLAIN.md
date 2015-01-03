@@ -23,3 +23,7 @@ The following output should be like:
 |  1 | SIMPLE      | empoyee_tbl  | ALL  | NULL          | NULL | NULL    | NULL |    4 |       |
 +----+-------------+--------------+------+---------------+------+---------+------+------+-------+
 ```
+
+Now what these columns mean?
+
+- `id` =
