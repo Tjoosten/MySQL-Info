@@ -39,7 +39,7 @@ The following output should be like:
 | `rows`          | Estimate of rows to be examined   |
 | `Extrea`        | Additional information            |
 
-#### Logt to a `.txt` file.
+#### Log into a `.txt` file.
 You can also log the output of the query to a textfile. Using this syntax. 
 
 ```bash 
