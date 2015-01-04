@@ -19,3 +19,25 @@ mysql> SELECT * FROM employee_tbl;
 +------+------+------------+--------------------+
 7 rows in set (0.00 sec)
 ```
+Now, suppose based on the above table you want to count total number of rows in this table, then you can do it as follows:
+
+```sql
+mysql>SELECT COUNT(*) FROM employee_tbl ;
++----------+
+| COUNT(*) |
++----------+
+|        7 |
++----------+
+1 row in set (0.01 sec)
+```
+Similarly, if you want to count the number of records for Zara, then it can be done as follows:
+```sql
+mysql>SELECT COUNT(*) FROM employee_tbl
+    -> WHERE name="Zara";
++----------+
+| COUNT(*) |
++----------+
+|        2 |
++----------+
+1 row in set (0.04 sec)
+```
