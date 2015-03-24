@@ -34,3 +34,21 @@ sudo mysqld_safe --skip-grant-tables &
 ```
 
 **NOTE:** The ampersand (`&`) at the end of the command is required.
+
+### Login
+
+All we need to do now is to log into MySQL and set the password.
+
+```bash
+mysql -u root
+```
+
+**NOTE:** No password is required at this stage as when we started MySQL we skipped the user privileges table.
+
+Newt, instrcut MySQL which table database to user:
+
+```sql
+use mysql;
+```
+
+### Reset password.
