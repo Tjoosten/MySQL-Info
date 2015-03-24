@@ -15,6 +15,10 @@ The two `root` users are not connected in any way.
 
 ### Stop the MySQL server.
 
+The first thing to do is stop MySQL.
+
 ```bash
-sudo service mysql stop # RPi: Debian
+sudo /etc/init.d/mysql stop   # Computer: Ubuntu, Debian.
+sudo /etc/init.d/mysqld stop  # Computer: CentOS, Fedura, RHEL.
+sudo service mysql stop       # RPi: Debian
 ```
