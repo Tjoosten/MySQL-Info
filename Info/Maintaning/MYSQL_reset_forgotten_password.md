@@ -14,3 +14,7 @@ The Server root user is the server's main user. The MySQL root user has complete
 The two `root` users are not connected in any way.
 
 ### Stop the MySQL server.
+
+```bash
+sudo service mysql stop # RPi: Debian
+```
