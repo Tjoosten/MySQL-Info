@@ -20,5 +20,17 @@ The first thing to do is stop MySQL.
 ```bash
 sudo /etc/init.d/mysql stop   # Computer: Ubuntu, Debian.
 sudo /etc/init.d/mysqld stop  # Computer: CentOS, Fedura, RHEL.
-sudo service mysql stop       # RPi: Debian
+sudo service mysql stop       # RPi: Debian.
 ```
+
+### Safe mode.
+
+Next we need to start MySQL in safe mode - that is to say, we will start MySQL but skip the user privileges table.
+Again, note that you will need to have `sudo` access for those commands so you don't need to worry about any user being able to reset
+the MySQL root password:
+
+```bash
+sudo mysqld_safe --skip-grant-tables &
+```
+
+**NOTE:** The ampersand (`&`) at the end of the command is required.
