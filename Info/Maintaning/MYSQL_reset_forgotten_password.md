@@ -45,10 +45,22 @@ mysql -u root
 
 **NOTE:** No password is required at this stage as when we started MySQL we skipped the user privileges table.
 
-Newt, instrcut MySQL which table database to user:
+Newt, instruct MySQL which table database to user:
 
 ```sql
 use mysql;
 ```
 
 ### Reset password.
+
+Enter the new password for the root user as follows:
+
+```sql
+update user set password=PASSWORD("mynewpassword") where User='root';
+```
+
+And finally fliush the privileges;
+
+```sql
+flush privileges;
+``` 
